@@ -13,7 +13,7 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <makitoo.version>0.0.14</makitoo.version>
+        <makitoo.version>0.0.16</makitoo.version>
     </properties>
 
     <repositories>
@@ -76,14 +76,13 @@
                     <compliance>8</compliance>
                     <modules>
                         <module>com.makitoo.handled.HandledModule</module>
+                        <module>com.makitoo.callback.CallbackModule</module>
                         <module>com.makitoo.hotcatches.HotFixesModule</module>
                         <module>com.makitoo.npe.NpeModule</module>
+                        <module>com.makitoo.loop.LoopModule</module>
                     </modules>
-                    <noClasspath>true</noClasspath>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
-
 </project>
